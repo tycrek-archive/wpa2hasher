@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">WPA2Hasher</string>
+    <string name="passwordString">Password</string>
+    <string name="mywifipasswordString">MyWifiPassword</string>
+    <string name="this_program_generates_a_pbkdf2_hmac_sha1_hash_that_is_used_by_wireless_network_devices_this_program_is_totally_safe_none_of_your_information_is_sent_over_the_internetString">This program generates a PBKDF2/HMAC-SHA1 hash that is used by wireless network devices implementing WPA/WPA2 encryption. This program is totally safe: none of your information is sent over the Internet.</string>
+    <string name="hashString">Hash</string>
+    <string name="generate_hashString">Generate Hash</string>
+    <string name="ssidString">SSID</string>
+    <string name="mywifinetworknameString">MyWifiNetworkName</string>
+</resources>

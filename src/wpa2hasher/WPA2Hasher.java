@@ -62,13 +62,13 @@ public class WPA2Hasher {
 			System.out.println("Incorrect usage! Example:");
 			System.out.println("> java -jar wpa2h.jar <ssid> <password>");
 			try {
-				Thread.sleep(4000);
+				//Thread.sleep(4000);
 			}catch(Exception iex) {
 				System.err.println("WARN: " + iex.getMessage());
 			}
 			//DEBUG CODE:
-			//WPA2Hasher wpah = new WPA2Hasher("MyWifiNetwork", "SecurePassword");
-			//wpah.start();
+			WPA2Hasher wpah = new WPA2Hasher("MyWifiNetwork", "SecurePassword",true);
+			wpah.start();
 		} else {
 			if(args[1].length() < 8) {
 				System.out.println("Recommended password length is 8 charachters or more!");
